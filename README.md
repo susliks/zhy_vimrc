@@ -11,3 +11,11 @@
 进入vim，运行
 
 `:PluginInstall`
+
+## ctags
+
+if linux:
+`sudo apt-get install ctags`
+
+if macOS:
+`Homebrew install ctags-exuberant`
