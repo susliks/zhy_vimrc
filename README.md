@@ -4,6 +4,11 @@
 
 ## installation
 
+### vim（如果系统中没有装好）
+
+`sudo apt-get update && sudo apt-get install vim`
+
+### 插件
 `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
 `cp zhy_vimrc/zhy_vimrc ~/.vimrc`
@@ -19,3 +24,5 @@ if linux:
 
 if macOS:
 `Homebrew install ctags-exuberant`
+
+
