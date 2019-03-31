@@ -26,3 +26,8 @@ if macOS:
 `Homebrew install ctags-exuberant`
 
 
+## tmux
+`cp .tmux.conf ~/`
+
+`tmux source-file ~/.tmux.conf`
+
