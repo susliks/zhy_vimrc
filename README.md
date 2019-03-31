@@ -11,7 +11,7 @@
 ### 插件
 `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
-`cp zhy_vimrc/zhy_vimrc ~/.vimrc`
+`cp zhy_vimrc ~/.vimrc`
 
 进入vim，运行
 
@@ -20,6 +20,7 @@
 ## ctags
 
 if linux:
+`sudo apt-get update`
 `sudo apt-get install ctags`
 
 if macOS:
