@@ -32,3 +32,7 @@ if macOS:
 
 `tmux source-file ~/.tmux.conf`
 
+## taglist
+
+进入vim，输入
+`:helptags ~/.vim/doc`
