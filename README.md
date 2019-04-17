@@ -26,6 +26,12 @@ if linux:
 if macOS:
 `Homebrew install ctags-exuberant`
 
+## cscope
+after running build.sh
+`source ~/.bashrc
+mkcscopefile
+mktag`
+
 
 ## tmux
 `cp .tmux.conf ~/`
