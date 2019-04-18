@@ -10,6 +10,6 @@ echo 'export PATH="~/anaconda3/bin:$PATH"' >> ~/.bashrc
 echo 'alias mkcscopefile='\''find `pwd` -name "*.[ch]" -o -name "*.cpp" -o -name "*.py" > cscope.files'\''' >> ~/.bashrc
 echo 'alias mktag='\''ctags -R;cscope -bR'\''' >> ~/.bashrc
 
-" install taglist(未测试)
-cp -r ./taglist.vim/plugin ./taglist.vim/doc ~/.vim
-
+# install taglist
+cp -r ./taglist.vim/plugin ~/.vim
+cp -r ./taglist.vim/doc ~/.vim
