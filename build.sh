@@ -6,7 +6,7 @@ cp zhy_vimrc ~/.vimrc
 cp .tmux.conf ~/
 sudo apt-get install tmux
 tmux source-file ~/.tmux.conf
-echo 'export PATH="~/anaconda3/bin:$PATH"' >> ~/.bashrc
+echo 'export PATH="~/../../../t-zhuangyi/anaconda3/bin:$PATH"' >> ~/.bashrc
 echo 'alias mkcscopefile='\''find `pwd` -name "*.[ch]" -o -name "*.cpp" -o -name "*.py" > cscope.files'\''' >> ~/.bashrc
 echo 'alias mktag='\''ctags -R;cscope -bR'\''' >> ~/.bashrc
 
