@@ -4,6 +4,7 @@ sudo apt-get install cscope
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 #cp zhy_vimrc ~/.vimrc
 cp simplified_zhy_vimrc ~/.vimrc
+cp zhy_condarc ~/.condarc
 cp .tmux.conf ~/
 sudo apt-get install tmux
 tmux source-file ~/.tmux.conf
