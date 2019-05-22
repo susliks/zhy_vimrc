@@ -172,11 +172,11 @@ filetype indent on
 " 将制表符扩展为空格
 set expandtab
 " 设置编辑时制表符占用空格数
-set tabstop=4
+set tabstop=2
 " 设置格式化时制表符占用空格数
-set shiftwidth=4
+set shiftwidth=2
 " 让 vim 把连续数量的空格视为一个制表符
-set softtabstop=4
+set softtabstop=2
 
 " 缩进可视化插件 Indent Guides
 " 随 vim 自启动
